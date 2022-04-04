@@ -7,7 +7,7 @@ const Review = () => {
 
   return (
     <div className="container my-5">
-      <h1>All Reviews</h1>
+      <h1 className="titel-color fw-bold">All Reviews</h1>
       <div className="row g-5">
         {products.map((product) => (
           <AllReviews key={product.id} product={product}></AllReviews>

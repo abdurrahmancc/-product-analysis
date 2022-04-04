@@ -43,7 +43,7 @@ const Home = () => {
         </div>
       </div>
       <div className=" row g-5">
-        <h1 className="margin">Customer Reviews</h1>
+        <h1 className="margin titel-color fw-bold">Customer Reviews</h1>
         {products.slice(0, 3).map((product) => (
           <ProductsReview key={product.id} product={product}></ProductsReview>
         ))}
