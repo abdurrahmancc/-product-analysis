@@ -21,7 +21,7 @@ const Home = () => {
           <div className="col-md-6 ">
             <h1 className="text-start fw-bold margin">Best product </h1>
             <h1 className="text-start fw-bolder titel-color">Top Cheap price T-shirt </h1>
-            <p className="text-start mt-5">
+            <p className="text-start mt-5 fs-5">
               A quality t-shirt must be aesthetically pleasing as well as practical. This mostly
               depends on the type of fabric used. Cotton is considered one of the best fabrics for
               T-shirt manufacturing since it is soft and breathable

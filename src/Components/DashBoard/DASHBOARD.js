@@ -72,7 +72,7 @@ const DASHBOARD = () => {
          ----------------------------- */}
 
         <div className="col-md-6">
-          <PieChart width={630} height={350}>
+          <PieChart width={730} height={250}>
             <Pie
               data={data}
               dataKey="sell"
