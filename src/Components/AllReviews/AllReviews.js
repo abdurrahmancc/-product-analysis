@@ -1,8 +1,9 @@
 import React from "react";
-import { Button, Card, CardGroup } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
-const ProductsReview = (props) => {
+const AllReviews = (props) => {
   const { name, image, comment, rating } = props.product;
+
   return (
     <div className="col-md-4">
       <Card>
@@ -22,4 +23,4 @@ const ProductsReview = (props) => {
   );
 };
 
-export default ProductsReview;
+export default AllReviews;

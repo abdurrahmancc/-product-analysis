@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
-import useProducts from "../../useProducts/useProducts";
+import { useNavigate } from "react-router-dom";
+import useProducts from "../../Hooks/useProducts";
 import ProductsReview from "../ProductsReview/ProductsReview";
+
 import "./Home.css";
 
 const Home = () => {
   const [products, setProducts] = useProducts();
+  const navigate = useNavigate();
   //   useEffect(() => {
   //     fetch("products.json")
   //       .then((res) => res.json())
@@ -13,7 +16,7 @@ const Home = () => {
   console.log(products.slice(0, 3));
   return (
     <div className="container ">
-      <div className="">
+      <div className="mb-5">
         <div className="row ">
           <div className="col-md-6 ">
             <h1 className="text-start fw-bold margin">Best product </h1>
@@ -40,13 +43,16 @@ const Home = () => {
         </div>
       </div>
       <div className=" row g-5">
-        <h1>Customer Reviews</h1>
+        <h1 className="margin">Customer Reviews</h1>
         {products.slice(0, 3).map((product) => (
           <ProductsReview key={product.id} product={product}></ProductsReview>
         ))}
       </div>
       <div>
-        <button className="border-0 py-2 px-4 btn-color text-white rounded my-5">
+        <button
+          onClick={() => navigate("/reviews")}
+          className="border-0 py-2 px-4 btn-color text-white rounded my-5"
+        >
           See All Reviews
         </button>
       </div>

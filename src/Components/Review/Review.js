@@ -1,12 +1,18 @@
 import React from "react";
-import useProducts from "../../useProducts/useProducts";
+import useProducts from "../../Hooks/useProducts";
+import AllReviews from "../AllReviews/AllReviews";
 
 const Review = () => {
   const [products, setProducts] = useProducts();
 
   return (
-    <div>
-      <h1>this is our review section{products.length}</h1>
+    <div className="container my-5">
+      <h1>All Reviews</h1>
+      <div className="row g-5">
+        {products.map((product) => (
+          <AllReviews key={product.id} product={product}></AllReviews>
+        ))}
+      </div>
     </div>
   );
 };

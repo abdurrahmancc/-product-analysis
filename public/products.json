@@ -1,6 +1,7 @@
 [
     {
-      "name": "Gildan Sweatshirt - Crew",
+      "name": "bangruk",
+      "names": "Gildan Sweatshirt - Crew",
       "style": "18000",
       "rating":"4.5",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -12,7 +13,8 @@
       "url": "https://api.scalablepress.com/v3/products/gildan-sweatshirt-crew"
     },
     {
-      "name": "Gildan Heavy Sweatshirt",
+      "name": "barel",
+      "names": "Gildan Heavy Sweatshirt",
       "style": "12000",
       "rating":"4.6",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -24,7 +26,8 @@
       "url": "https://api.scalablepress.com/v3/products/gildan-heavy-sweatshirt"
     },
     {
-      "name": "Jerzees Sweatshirt - Crew",
+      "name": "jhon",
+      "names": "Jerzees Sweatshirt - Crew",
       "style": "4662M",
       "rating":"4.7",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -36,7 +39,8 @@
       "url": "https://api.scalablepress.com/v3/products/jerzees-sweatshirt-crew"
     },
     {
-      "name": "Champion Sweatshirt",
+      "name": "niha kakkar",
+      "names": "Champion Sweatshirt",
       "style": "S600",
       "rating":"4.3",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -48,7 +52,8 @@
       "url": "https://api.scalablepress.com/v3/products/champion-sweatshirt"
     },
     {
-      "name": "Jerzees 50/50 Fleece Crew",
+      "name": "jeremy holloway",
+      "names": "Jerzees 50/50 Fleece Crew",
       "style": "562",
       "rating":"4.4",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -60,7 +65,8 @@
       "url": "https://api.scalablepress.com/v3/products/jerzees-50-50-fleece-crew"
     },
     {
-      "name": "Canvas Triblend Sweatshirt - Crew",
+      "name": "alibaba",
+      "names": "Canvas Triblend Sweatshirt - Crew",
       "style": "3901",
       "rating":"4.4",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -72,7 +78,8 @@
       "url": "https://api.scalablepress.com/v3/products/canvas-triblend-sweatshirt-crew"
     },
     {
-      "name": "Hanes 50/50 Fleece Crew",
+      "name": "mokkel",
+      "names": "Hanes 50/50 Fleece Crew",
       "style": "P1607",
       "rating":"4.3",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -84,7 +91,8 @@
       "url": "https://api.scalablepress.com/v3/products/hanes-50-50-fleece-crew"
     },
     {
-      "name": "Hanes Ultimate Cotton Fleece Crew",
+      "name": "elijah",
+      "names": "Hanes Ultimate Cotton Fleece Crew",
       "style": "F260",
       "rating":"4.3",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -96,7 +104,8 @@
       "url": "https://api.scalablepress.com/v3/products/hanes-ultimate-cotton-fleece-crew"
     },
     {
-      "name": "Champion 9.7 oz. 90/10 Cotton Max Crew",
+      "name": "ginny",
+      "names": "Champion 9.7 oz. 90/10 Cotton Max Crew",
       "style": "S178",
       "rating":"4.5",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
@@ -108,7 +117,8 @@
       "url": "https://api.scalablepress.com/v3/products/champion-9-7-oz-90-10-cotton-max-crew"
     },
     {
-      "name": "Champion 9.7 oz. 90/10 Cotton Max Pullover Hood",
+      "name": "oliver",
+      "names": "Champion 9.7 oz. 90/10 Cotton Max Pullover Hood",
       "style": "S171",
       "rating":"4.2",
       "comment":"A quality t-shirt must be aesthetically pleasing as well as practical. This mostly depends on the type of fabric used. Cotton is considered one of the best fabrics for T-shirt manufacturing since it is soft and breathable",
