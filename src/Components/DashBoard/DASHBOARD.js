@@ -28,6 +28,10 @@ const DASHBOARD = () => {
     <div className="container">
       <h1 className="margin-top margin-bottom">this is our DASHBOARD </h1>
       <div className="row g-5">
+        {/* ----------------------------
+                   BarChart
+         ----------------------------- */}
+
         <div className="col-md-6 ">
           <BarChart width={630} height={350} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
@@ -40,6 +44,11 @@ const DASHBOARD = () => {
             <Bar dataKey="revenue" fill="#FFA500" />
           </BarChart>
         </div>
+
+        {/* ----------------------------
+                   LineChart
+         ----------------------------- */}
+
         <div className="col-md-6">
           <LineChart
             width={630}
@@ -57,6 +66,11 @@ const DASHBOARD = () => {
             <Line type="monotone" dataKey="revenue" stroke="#FFA500" />
           </LineChart>
         </div>
+
+        {/* ----------------------------
+                   PieChart
+         ----------------------------- */}
+
         <div className="col-md-6">
           <PieChart width={630} height={350}>
             <Pie
