@@ -33,6 +33,7 @@ const DASHBOARD = () => {
          ----------------------------- */}
 
         <div className="col-md-6 ">
+          <h3 className="my-5">Investment vs Sales vs Revenue</h3>
           <BarChart width={630} height={350} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="month" />
@@ -50,6 +51,7 @@ const DASHBOARD = () => {
          ----------------------------- */}
 
         <div className="col-md-6">
+          <h3 className="my-5">Investment vs Sales vs Revenue</h3>
           <LineChart
             width={630}
             height={350}
@@ -72,6 +74,7 @@ const DASHBOARD = () => {
          ----------------------------- */}
 
         <div className="col-md-6">
+          <h3 className="my-5">Investment vs. Sales vs. Revenue</h3>
           <PieChart width={730} height={250}>
             <Pie
               data={data}
@@ -102,6 +105,7 @@ const DASHBOARD = () => {
          ----------------------------- */}
 
         <div className="col-md-6">
+          <h3 className="my-5">Investment vs Sales vs Revenue</h3>
           <AreaChart
             width={630}
             height={350}
