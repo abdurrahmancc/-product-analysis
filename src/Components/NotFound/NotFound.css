@@ -1,0 +1,17 @@
+.styel404{
+    /* background-image: url(../../../public/img/animation-1.gif); */
+    background-image: url(https://cdn.dribbble.com/users/3802434/screenshots/9024174/media/e64cea3771043d253dc6a78076582253.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100vw;
+    height: 125vh;
+    width: 100vw;
+    margin-top: -315px;
+}
+.style-btn{
+    margin-top: 892px;
+    position: relative;
+    left: 310px;
+    padding: 25px 160px;
+    border-radius: 50px;
+}
