@@ -4,3 +4,11 @@ color: orange;
 .nav-color{
     background: #120E43;
 }
+.active-border{
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+}
+.unActive-border{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}

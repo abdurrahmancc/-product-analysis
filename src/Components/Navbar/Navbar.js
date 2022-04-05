@@ -35,8 +35,8 @@ const Navbar = () => {
           to={"/home"}
           className={({ isActive }) =>
             isActive
-              ? "text-orange fs-4 mx-2 fw-bolder text-decoration-underline"
-              : "text-white mx-2 fs-5 text-decoration-none"
+              ? "text-orange active-border fs-4 mx-2 fw-bolder text-decoration-none"
+              : "text-white mx-2 fs-5 unActive-border text-decoration-none"
           }
         >
           Home
@@ -45,8 +45,8 @@ const Navbar = () => {
           to={"/reviews"}
           className={({ isActive }) =>
             isActive
-              ? "text-orange fs-4 mx-2 fw-bolder text-decoration-underline"
-              : "text-white mx-2 fs-5 text-decoration-none"
+              ? "text-orange active-border fs-4 mx-2 fw-bolder text-decoration-none"
+              : "text-white unActive-border mx-2 fs-5 text-decoration-none"
           }
         >
           Reviews
@@ -55,8 +55,8 @@ const Navbar = () => {
           to={"/dashboard"}
           className={({ isActive }) =>
             isActive
-              ? "text-orange fs-4 mx-2 fw-bolder text-decoration-underline"
-              : "text-white mx-2 fs-5 text-decoration-none"
+              ? "text-orange active-border fs-4 mx-2 fw-bolder text-decoration-none"
+              : "text-white unActive-border mx-2 fs-5 text-decoration-none"
           }
         >
           DASHBOARD
@@ -65,8 +65,8 @@ const Navbar = () => {
           to={"/blogs"}
           className={({ isActive }) =>
             isActive
-              ? "text-orange mx-2 fs-4 fw-bolder text-decoration-underline"
-              : "text-white mx-2 fs-5 text-decoration-none"
+              ? "text-orange active-border mx-2 fs-4 fw-bolder text-decoration-none"
+              : "text-white unActive-border mx-2 fs-5 text-decoration-none"
           }
         >
           Blogs
@@ -75,8 +75,8 @@ const Navbar = () => {
           to={"/about"}
           className={({ isActive }) =>
             isActive
-              ? "text-orange fs-4 mx-2 fw-bolder text-decoration-underline"
-              : "text-white mx-2 fs-5 text-decoration-none"
+              ? "text-orange active-border fs-4 mx-2 fw-bolder text-decoration-none"
+              : "text-white unActive-border mx-2 fs-5 text-decoration-none"
           }
         >
           About
